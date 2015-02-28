@@ -1,14 +1,13 @@
 #!/usr/bin/env/ python
 
 __author__ = 'vickydasta'
-__doc__    = 'simptorlib example'
+__doc__    = 'simptorlib usage example'
 
 import sys
-
 try:
 	from simptor import enc, tob64, dec,gimerand,mkmd5sum
 except ImportError:
-	print 'vick@ubuntu:~# pycompile simptor.py'
+	print 'cannot import main module.'
 	sys.exit(0)
 
 def main():
