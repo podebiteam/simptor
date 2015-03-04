@@ -49,7 +49,7 @@ def main():
 			# i don't think so...
 			inp=raw_input('>. ')			
 			print '--> private chiper : {}'.format(enc(inp)+gimerand())
-			print '--> base64 encoded : {}'.format(tob64('aaa'))
+			print '--> base64 encoded : {}'.format(tob64(enc(inp)))
 			print '--> md5            : {}'.format(mkmd5sum(inp)+giveRandom())
 
 	elif sys.argv[1] == '-d' or sys.argv[1]== '-D':
